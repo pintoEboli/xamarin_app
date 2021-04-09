@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:AppCitasDoctores.ViewsModels"
+             x:Class="AppCitasDoctores.Views.TodosCitasView">
+    <ContentPage.BindingContext>
+        <viewmodels:CitasViewModel></viewmodels:CitasViewModel>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label x:Name="lblTitulo" Text="Todas las Citas" FontSize="25" HorizontalOptions="FillAndExpand" Background="Blue" TextColor="White" HeightRequest="40"></Label>
+            <ListView ItemsSource="{Binding Citas}" RowHeight="75">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Vertical" WidthRequest="40">
+                                    <Label Text="{Binding citas_cod}" FontSize="25" />
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical" WidthRequest="110">
+                                    <Label  Text="{Binding hora}" FontSize="25"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical" WidthRequest="150">
+                                    <Label  Text="{Binding fecha}" FontSize="25"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical" WidthRequest="70">
+                                    <Label  Text="{Binding inscripcion}" FontSize="25" TextColor="Blue"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

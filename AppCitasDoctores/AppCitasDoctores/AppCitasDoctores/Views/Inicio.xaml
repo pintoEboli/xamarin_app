@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCitasDoctores.Views.Inicio">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Clinica Getafe" TextColor="White" BackgroundColor="Blue" FontSize="25" HeightRequest="40" HorizontalTextAlignment="Center"/>
+            <Image Source="clinica.jpg"  BackgroundColor="White" />
+            
+            <Button x:Name="btnCitas" Text="Citas" FontSize="20"></Button>
+            <Button x:Name="btnDoctores" Text="Doctores" FontSize="20"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

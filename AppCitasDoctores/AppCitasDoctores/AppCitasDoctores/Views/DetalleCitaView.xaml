@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCitasDoctores.Views.DetalleCitaView">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,0,0,5">
+                <Label Text="Detalle Cita:" HorizontalOptions="Fill"  BackgroundColor="Blue" TextColor="White" Padding="10" FontAttributes="Bold" FontSize="25" Margin="0,0,0,0"/>
+                <Label x:Name="lblCitaCod" Text="565" HorizontalOptions="Fill"  BackgroundColor="Aquamarine" TextColor="Gray" Padding="10" FontAttributes="Bold" FontSize="25" Margin="0,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Apellido Paciente:" FontAttributes="Bold" FontSize="20" Padding="5"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="lblCitaPaciente" Text="xxx" FontSize="20" TextColor="Blue" ></Entry>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Hora cita:" FontAttributes="Bold" FontSize="20" Padding="5"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="lblCitaHora" Text="xxx"  FontSize="20" TextColor="Blue" ></Entry>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Fecha cita:" FontAttributes="Bold" FontSize="20" Padding="5"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="lblCitaFecha" Text="kkkk"  FontSize="20" TextColor="Blue"></Entry>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0,0,0">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Especialidad:" FontAttributes="Bold" FontSize="20" Padding="5"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="lblCitaEspecialidad" Text="xxxxxx" FontSize="20" TextColor="Blue"></Entry>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Nommbre del Doctor:" FontAttributes="Bold" FontSize="20" Padding="5"></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="lblCitaDoctor" Text="xxx" FontSize="20" TextColor="Blue"></Entry>
+                </StackLayout>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

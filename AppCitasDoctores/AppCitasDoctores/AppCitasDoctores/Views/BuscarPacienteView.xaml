@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCitasDoctores.Views.BuscarPacienteView">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label x:Name="lblEspecialidad" Text="Buscar al paciente:" IsVisible="true" Margin="0,10,0,10" FontSize="20" FontAttributes="Bold" TextColor="White" Background="Blue" HorizontalTextAlignment="Center"></Label>
+            <StackLayout Orientation="Horizontal" Margin="0,0,0,10">
+                <StackLayout Orientation="Vertical" >
+                    <Label Text="Apellido Paciente:" FontSize="22" Padding="0,7" FontAttributes="Bold" ></Label>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="inputApellido" ></Entry>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <Button x:Name="btnBuscar" Text="Buscar pacientes"></Button>
+            </StackLayout>
+            <Label x:Name="lblPacientes" Text="Listado de pacientes:" IsVisible="true" Margin="0,10,0,10" FontSize="22" FontAttributes="Bold" TextColor="White" BackgroundColor="DarkGray" HorizontalTextAlignment="Center" ></Label>
+            <ListView ItemsSource="{Binding Enfermo}" ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate RowHeight="90">
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Orientation="Vertical" BackgroundColor="White" Margin="7,5,7,5">
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Vertical" Margin="0,0,5,0" HorizontalOptions="CenterAndExpand" >
+                                        <Label  Text="{Binding inscripcion}" FontSize="25" WidthRequest="50" HorizontalOptions="CenterAndExpand"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" Margin="0,0,5,0" HorizontalOptions="FillAndExpand">
+                                        <Label  Text="{Binding apellido}" FontSize="25" WidthRequest="130"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" Margin="0,0,5,0" WidthRequest="50" HorizontalOptions="FillAndExpand">
+                                        <Label  Text="{Binding sexo}" FontSize="20" TextColor="Blue" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" Margin="0,0,5,0" WidthRequest="50">
+                                        <Image Source="ic_menu_add.png" WidthRequest="30" HeightRequest="30" BackgroundColor="White" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="btnCrearCita" Text="Crear Cita" TextColor="White" FontSize="22" BackgroundColor="Blue" IsEnabled="False" IsVisible="False"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

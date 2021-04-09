@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCitasDoctores.Views.InsertarDoctorView">
+    <ContentPage.Content>
+        <StackLayout x:Name="layoutDoctor" Orientation="Vertical">
+            <Label Text="Hospital" VerticalOptions="Center" FontAttributes="Bold" FontSize="20" />
+            <Entry x:Name="input_HospitalCod" HorizontalOptions="FillAndExpand" Text="{Binding Doctor.HospitalCod}"/>
+            <Label Text="Apellido" VerticalOptions="Center" FontAttributes="Bold" FontSize="20"/>
+            <Entry x:Name="input_Apellido" HorizontalOptions="FillAndExpand" Text="{Binding Doctor.Apellido}"/>
+            <Label Text="Especialidad" VerticalOptions="Center" FontAttributes="Bold" FontSize="20"/>
+            <Entry x:Name="input_Especialidad" HorizontalOptions="FillAndExpand" Text="{Binding Doctor.Especialidad}"/>
+            <Label Text="Salario" VerticalOptions="Center" FontAttributes="Bold" FontSize="20"/>
+            <Entry x:Name="input_Salario" HorizontalOptions="FillAndExpand" Text="{Binding Doctor.Salario}"/>
+            <Button x:Name="btninsertdoc"  Text="Nuevo Doctor" HorizontalOptions="Center" BackgroundColor="Blue" TextColor="White" FontSize="20"/>
+            <Label x:Name="lbl_resultado" Text="" FontSize="20" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>            
+    </ContentPage.Content>
+
+</ContentPage>
