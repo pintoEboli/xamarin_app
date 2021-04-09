@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AppApuestasFutbol.Views.Inicio">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label Text="Apuestas CHAMPIONS LEAGUE" BackgroundColor="DarkGray" FontSize="20" HorizontalTextAlignment="Center"></Label>
+<StackLayout Orientation="Horizontal" Margin="0,7,0,7">
+<Image Source="logo.jpg" WidthRequest="70" HeightRequest="48" BackgroundColor="White" />
+
+</StackLayout>
+            <Button Text="Insertar Registro" x:Name="botoninsertar" 
+                    HorizontalOptions="FillAndExpand"/>
+            <Button Text="Mostrar Registros" x:Name="botonmostrarregistros" 
+                    HorizontalOptions="FillAndExpand"/> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

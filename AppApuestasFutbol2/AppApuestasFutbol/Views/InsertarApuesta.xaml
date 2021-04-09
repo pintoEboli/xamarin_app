@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:AppApuestasFutbol.ViewModels"
+             x:Class="AppApuestasFutbol.Views.InsertarApuesta">
+     <ContentPage.BindingContext>
+         <viewmodels:ApuestaModel></viewmodels:ApuestaModel>
+     </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Margin="5,10,5,0">
+            <Label FontSize="40" TextColor="Fuchsia" Text="Nueva Apuesta" 
+                   HorizontalOptions="Center"/> 
+            <Label Text="Id Apuesta" VerticalOptions="Center"/> 
+            <Entry HorizontalOptions="FillAndExpand" 
+                           Text="{Binding Apuesta.IdApuesta}"/> 
+            <Label Text="Nombre del Usuario" VerticalOptions="Center"/> 
+            <Entry HorizontalOptions="FillAndExpand" 
+                           Text="{Binding Apuesta.Usuario}"/> 
+            <Label Text="Apuesta del Usuario" VerticalOptions="Center"/> 
+
+            <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Real Madrid"></Label>
+                    <Stepper x:Name="controlstepperIzq" Increment="1" Minimum="0" Maximum="20"/>
+                    <Label x:Name="lblvalorIzq" Text="0" FontSize="Large" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Liverpool"></Label>
+                    <Stepper x:Name="controlstepperDer" Increment="1" Minimum="0" Maximum="20"/>
+                    <Label x:Name="lblvalorDer" Text="0" FontSize="Large" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+            </StackLayout>
+            <Entry HorizontalOptions="FillAndExpand" x:Name="txtresultado"
+                           Text="{Binding Apuesta.Resultado}"/> 
+            <Button Text="Insertar Apuesta" HorizontalOptions="FillAndExpand" 
+                    Command="{Binding InsertarDatoApuesta}"/> 
+            <Label FontSize="25" TextColor="Blue" 
+                   Text="{Binding Mensaje}"/> 
+        </StackLayout> 
+    </ContentPage.Content>
+</ContentPage>

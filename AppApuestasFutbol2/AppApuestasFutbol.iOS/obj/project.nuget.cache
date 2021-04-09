@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "o3pkI7tZ3KO2nY3B0lE8uXWM9LtqFlvmQQHpe0xOLpg0QjN5LYqYeqwzkXwCtA4ydzX3/+Gw+7/AHj/6n7ub2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dmora\\source\\repos\\AppApuestasFutbol\\AppApuestasFutbol.iOS\\AppApuestasFutbol.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dmora\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\mongodb.bson\\2.11.3\\mongodb.bson.2.11.3.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\realm\\10.1.1\\realm.10.1.1.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\realm.fody\\10.1.1\\realm.fody.10.1.1.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\system.codedom\\4.5.0\\system.codedom.4.5.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\system.management\\4.5.0\\system.management.4.5.0.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\dmora\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

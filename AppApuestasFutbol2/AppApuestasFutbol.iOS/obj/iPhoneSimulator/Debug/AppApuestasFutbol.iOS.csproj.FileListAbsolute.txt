@@ -1,0 +1,65 @@
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Realm.dll.config
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.exe
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/MongoDB.Bson.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Realm.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Realm.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Remotion.Linq.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/AppApuestasFutbol.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/AppApuestasFutbol.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-14.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-14.4/actool/_PartialAppManifest.items
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-14.4/actool/_BundleResourceWithLogicalName.items
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-14.4/coremlc/_PartialAppManifest.items
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-14.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-14.4/optimized/
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.csprojAssemblyReference.cache
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.csproj.CoreCompileInputs.cache
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.csproj.Fody.CopyLocal.cache
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.csproj.CopyComplete
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.exe
+/Users/mananas/Projects/AppApuestasFutbol/AppApuestasFutbol.iOS/obj/iPhoneSimulator/Debug/AppApuestasFutbol.iOS.pdb
